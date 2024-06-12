@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 1.按顺序引入文件夹中的css和js -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-icons.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/font-awesome.min.css">
+  <script src="bootstrap/js/jquery.slim.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <!-- 2.新建一个style.css,并在typoa文档中复制、重新设置全局的字体样式，粘贴到style.css -->
+
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <audio src="media/bgm.mp3" autoplay loop></audio>
+  <!-- .在bootstrap官网找到合适的组件并复制 -->
+  <nav class="navbar fixde-top navbar-expand-lg navbar-dark">
+    <div class="container"><!--箱子-->
+
+      <a class="navbar-brand" href="#">
+        <i class="bi bi-arrow-through-heart"></i>
+        <span>TNT</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="bi bi-list"></i>
+        <i class="bi bi-x"></i>
+      </button>
+      <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">爆米花<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#about">小海螺</a>
+          <a class="nav-link" href="#menu">爆米花</a>
+          <a class="nav-link" href="#gallery">盐汽水</a>
+          <a class="nav-link" href="#reviews">比邻星</a>
+          <a class="nav-link" href="#contact">小气球</a>
+        </div>
+      </div>
+  </nav>
+  <!-- 巨幕模块 -->
+  <section id="home" class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- 固定框架 -->
+          <div class="jumbotron">
+            <p class="lead"><b>TNT 时代少年团</b></p>
+            <h1 class="display-4"><b>我们喜欢你!</b></h1>
+            <a class="btn btn-light btn-lg" href="#" role="button">😍了解更多</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 关于模块 -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-12 d-none d-md-block"><img class="img-fluid" src="images/22.webp" alt=""></div>
+        <div class="col-md-6 col-12">
+          <h2><small>为什么选择他们?</small></h2>
+          <h2>因为他们是人间值得，是我生命中的一束光</h2>
+          <p class="">
+            2019年8月25日，真人秀节目《台风少年蜕变之战》落幕，马嘉祺、丁程鑫、宋亚轩、刘耀文、张真源、严浩翔、贺峻霖七人正式成团；10月11日，由七人组成的团体正式公布团名为“时代少年团”，英文名为“Teens in
+            Times”，缩写为“TNT”，寓意着组合未来将火力全开，势不可挡......</p>
+          <button type="button" class="btn btn-dark">TNT</button>
+          <div class="row">
+            <div class="col-4">
+              <div class="icons text-center">
+                <i class="bi bi-emoji-wink"></i>
+                <p><b>温柔善良</b></p>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="icons text-center">
+                <i class="bi bi-emoji-kiss"></i>
+                <p><b>天生老公</b></p>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="icons text-center">
+                <i class="bi bi-star"></i>
+                <p><b>我的唯一</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- 相册模块 -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="page-header text-center">
+        <h1>最好的他们</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/zzy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">张真源</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/hezhao.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">♥♥♥</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/yhx.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">严浩翔</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/syx.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">宋亚轩</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/TNT.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">宇宙最强</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/mjq.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">马嘉祺</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/lyw.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">刘耀文</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/hjl.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">贺俊霖</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/djx.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">丁程鑫</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 菜单模块 -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <div class="page-header text-center">
+        <h1>守护我们的时团</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/menu-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/menu-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/menu-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/menu-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/menu-5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card text-center">
+            <img src="images/menu-6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 新闻模块 -->
+  <section id="newsletter" class="newsletter text-center">
+    <h3>newsletter</h3>
+    <p>还想了解更多他们的讯息？赶快点击下方按钮订阅我们吧(啾咪)</p>
+    <div class="col-md-6 offset-md-3">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="your email" aria-label="Username"
+          aria-describedby="addon-wrapping">
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">订阅</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 页脚模块 -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center">
+            <h1></h1>
+            <p>Created By <a href="">Mr.Lin</a> Designer | All Rights Reserved!</p>
+            <div class="row">
+              <div class="col-md-4 offset-md-4">
+                <div class="icons text-center">
+                  <i class="fa fa-wechat fa-1x"></i>
+                  <i class="fa fa-qq fa-1x"></i>
+                  <i class="fa fa-facebook fa-1x"></i>
+                  <i class="fa fa-twitter fa-1x"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
